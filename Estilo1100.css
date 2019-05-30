@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box
+}
+
+@media only screen and (min-width: 1100px){
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(216, 216, 216);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: orangered;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Cabeçalho */
+
+.Cabeçalho{
+    opacity: 0.9;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 15%;
+    float: left;
+    padding: 3%, 4%;
+    z-index: 2;
+}
+
+.Logo{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 10%;
+    float: left;
+}
+
+.botao-menu{
+    margin-top: 1.4%;
+    margin-right: 4%;
+    width: 4%;
+    float: right;
+    text-align: center;
+    background-color: black;
+}
+
+/* Primeiro menu */
+
+.menutopo{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.904);
+    top: 0;
+    left: 0;
+}
+
+.menutopo ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menutopo li{
+    padding: 1.5%;
+}
+
+.menutopo li a{
+    font-size: 2em;
+    color: cornsilk;
+}
+
+.menutopo .botao-menu:hover{
+    background-color: #fff;
+}
+
+.menutopo li a:hover{
+    border: 3px solid orange;
+    color: orange;
+    text-shadow:0px 0px 5px #fff;
+}
+
+.Fechar{
+    font-size: 3em;
+    color: cornsilk;
+    float: right;
+    margin-right: 5%;
+}
+
+/* FOOTER */
+
+.footer h1{
+    font-size: 1.5em;
+    margin: 10px 0 10px;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 1em;
+    text-align: center;
+    margin: 0 20%;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 10em;
+    bottom: 0;
+    margin: 20% 0 0;
+    left: 0;
+    color: #fff;
+    z-index: 2;
+}
+
+/* CABEÇALHO */
+
+.Cabeçalho-2{
+    position: absolute;
+    top: 17%;
+}
+
+/* Notícia Destaque */
+
+.N1 span{
+    display: block;
+    width: 44%;
+    text-align: justify;
+    max-height: 300px;
+    position: absolute;
+    left: 53.9%;
+    top: 8%;
+    font-size: 1.1em;
+}
+
+.N1 img{
+    width: 50%;
+}
+
+
+.N1 a{
+    display: block;
+    color: black;
+    float: right;
+    font-size: 2em;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 4.5%;
+    left: 50%;
+}
+
+/* segunda */
+.N2{
+    font-size: 1.5em;
+    margin: 50px 0px 20px;
+}
+
+.N2 img{
+    display: block;
+    float: left;
+    width: 33.3333%;
+    height: 230px;
+    position: absolute;
+    top: 20.4%;
+}
+
+.N2 a{
+    display: block;
+    color: black;
+    margin: 7px 0px 20px;
+    text-align: center;
+    position: absolute;
+    top: 28.5%;
+    left: 5%;
+}
+
+.N2 a:hover{
+    color: orangered;
+}
+
+
+.N3{
+    font-size: 1.5em;
+    width: 100%;
+    min-height: 100px;
+}
+
+.N3 img{
+    display: block;
+    float: left;
+    width: 33.3333%;
+    height: 230px;
+    position: absolute;
+    top: 20.4%;
+    left: 33.3333%;
+}
+
+.N3 a{
+    display: block;
+    color: black;
+    margin: 7px 0px 20px;
+    text-align: center;
+    position: absolute;
+    top: 28.5%;
+    left: 38.3333%;
+}
+
+.N3 a:hover{
+    color: orangered;
+}
+
+/* quarta */
+
+.N4{
+    font-size: 1.5em;
+    width: 100%;
+    height: 120px;
+}
+
+.N4 img{
+    display: block;
+    float: left;
+    width: 33.3333%;
+    height: 230px;
+    position: absolute;
+    top: 20.4%;
+    left: 66.6666%;
+}
+
+.N4 a{
+    display: block;
+    color: black;
+    margin: 7px 0px 20px;
+    text-align: center;
+    position: absolute;
+    top: 28.5%;
+    left: 71.66666%;
+}
+
+.N4 a:hover{
+    color: orangered;
+}
+
+/* Menu */
+  
+.menu{
+    font-size: 1.8em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8%;
+    margin-top: 2%;
+    z-index: 1;
+    }
+    @media only screen and (max-width: 720px){
+        .menu{font-size: 1.1em;
+        margin: 0% 3%;
+        }
+    }
+
+.menu ul li { 
+        display: inline; 
+    }
+    
+.menu li{
+        position:relative; 
+        float:left; 
+    }
+    
+.menu li a{
+        color:rgba(0, 0, 0, 0.875);
+        text-decoration:none; 
+        padding:5px 10px; 
+        display:block;
+    }
+.menu li a:hover{
+        background:rgba(0, 0, 0, 0.875); 
+        color:#fff;
+    }
+    
+.menu li  ul{
+            position:absolute; 
+            background-color:#fff; 
+            display:none;
+    }  
+
+}
+
+/* Area das noticias */
+
+.Ultimas{
+    font-size: 4em;
+    margin: 25% 0 -5%;
+
+}
+
+article p{
+    display: block;
+    font-size: 1em;
+    float: right;
+}
+
+.Central p{
+    float: right;
+    width: 47%;
+}
+
+article a:hover{
+    color: orangered;
+}
+
+.Central img{
+    display: block;
+    width: 30%;
+    height: 200px;
+    margin: 4% 2%;
+}
+
+.Central h2{
+    display: block;
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin: 10% 0% 0% 0%;
+    position: relative;
+    left: -8%;
+    top: 8%;
+    font-size: 1.7em;
+}
+
+@media only screen and (min-width: 1680px){
+    .Central p{
+        height: 100px;
+        position: relative;
+        left: 40%;
+        top: 196px;
+        padding: 16px;
+    }
+    
+}
+
+/* Notícias */
+
+
+.Central article{
+    height: 200px;
+    margin: 30px 10px;
+}
+
+
+/* Noticias */
+
+.Central p{
+    height: 100px;
+    position: relative;
+    left: 40%;
+    top: 196px;
+    padding: 6px;
+}
+
+/* Botão fixo */
+
+.Home{
+    width: 110px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.7;
+}
+
+/* Assuntos */
+
+.Tema{
+    width: 100%;
+    position: absolute;
+    font-size: 2em;
+    top: 27%;
+    text-align: center;
+}
+
+.NoticiaT1{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    height: 120px;
+
+}
+
+.NoticiaT1 img{
+    float: left;
+    display: block;
+    width: 35%;
+    height: 250px;
+    margin: 0% 0% 0% 1.5%;
+}
+
+.NoticiaT1 a{
+    position: relative;
+    top: 80px;
+    display: block;
+    color: black;
+}
+
+.NoticiaT1 a:hover{
+    color: orangered;
+}
+
+.NoticiaT1 h1{
+    font-size: 1.7em;
+    display: block;
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin: 10% 0% 0%;
+}
+
+.NoticiaT1 p{
+    width: 60%;
+    margin-top: 10%;
+}
+
+/* MAIS */
+
+.mais{
+    font-size: 2em;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 33%;
+}
+
+.mais a{
+    color: black;
+}
+
+.mais a:hover{
+    color: #fff;
+    background-color: black;
+}
+
+.mais ul li{
+    padding: 8px 0px;
+}
+
+.Textobase{
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+.Paragrafobase{
+    width: 80%;
+    top: 100%;
+    margin: 20% 10%;
+    font-size: 1.6em;
+    text-align: justify;
+
+}
+
+/* Login */
+
+.login{
+    color: aqua;
+    font-size: 2em;
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    left: 0;
+}
+.Email{
+    position: fixed;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+    height: 5%;
+}
+
+.password{
+    position: fixed;
+    top: 45%;
+    left: 25%;
+    width: 50%;
+    height: 5%;
+}
+
+.Enviar{
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 5%;
+}
+
+/* NOTICIA */
+
+#NoticiaTelao{
+    width: 80%;
+    left: 10%;
+    height: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24%;
+    position: absolute;
+}
+
+@media only screen and (min-width: 1200px){
+    #NoticiaTelao{
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    #NoticiaTelao{
+        margin-top: 15%;
+        height: 70%;
+    }
+}
+
+#NomeDaNoticia{
+    font-size: 1.7em;
+    width: 100%;
+    text-align: center;
+    height: 10%;
+    position: absolute;
+    top: 118%;
+}
+
+.NoticiaPrincipal h3{
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 125%;
+}
+
+.NoticiaPrincipal p{
+    display: block;
+    text-align: justify;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 135%;
+}
+
+
+.Comentarios{
+    font-size: 1.5em;
+    position: absolute;
+    top: 180%;
+}
+
+.Caixa{
+    position: absolute;
+    top: 200%;
+    width: 80%;
+    height: 15%;
+    left: 5%;
+}
+
+@media only screen and (min-width: 1200px){
+    .Comentarios{
+        top: 200%;
+    }
+    .Caixa{
+        top: 210%;
+    }
+    .NoticiaPrincipal p{
+        font-size: 1.2em;
+        width: 70%;
+        left: 15%;
+    }
+}
+
+.Outras{
+    position: absolute;
+    font-size: 1.3em;
+    top: 238%;
+    width: 80%;
+    height: 15%; 
+}
+
+.Noticia1O{
+    position: absolute;
+    top: 250%;
+}
+
+.Noticia1O a{
+    display: block;
+    color: black;
+}
+
+.Noticia1O a:hover{
+    color: orangered;
+}
+
+.Noticia1O p{
+    display: none;
+}
+
+.Noticia1O img{
+    display: block;
+    width: 50%;
+}
+
+.Noticia1O h1{
+    display: block;
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin: 10% 0% 0%;
+}

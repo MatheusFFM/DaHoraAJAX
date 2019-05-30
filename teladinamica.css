@@ -1,0 +1,161 @@
+#NomeDaNoticia{
+    margin-top: -76%;
+}
+
+#sub{
+    margin-top: -40%;
+}
+
+#p1{
+    margin-top: -23%;
+    text-align: justify;
+}
+
+#NoticiaTelao img{
+    height: 200px;
+    width: 100%;
+    padding: 0 5%;
+}
+
+@media only screen and (min-width: 100px){
+    #NomeDaNoticia{
+        margin-top: -35%;
+    }
+    
+    #sub{
+        margin-top: 60%;
+    }
+    
+    #p1{
+        margin-top: 85%;
+        text-align: justify;
+    }
+}
+
+
+
+@media only screen and (min-width: 300px){
+    #NomeDaNoticia{
+        margin-top: -35%;
+    }
+    
+    #sub{
+        margin-top: 0%;
+    }
+    
+    #p1{
+        margin-top: 15%;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 361px){
+    #NomeDaNoticia{
+        margin-top: -25%;
+    }
+}
+
+@media only screen and (min-width: 425px){
+    #NomeDaNoticia{
+        margin-top: -20%;
+    }
+}
+
+@media only screen and (min-width: 479px){
+    #NomeDaNoticia{
+        margin-top: -25%;
+    }
+}
+
+@media only screen and (min-width: 570px){
+    #NomeDaNoticia{
+        margin-top: -25%;
+    }
+}
+
+@media only screen and (min-width: 640px){
+    #NomeDaNoticia{
+        margin-top: -18%;
+    }
+    #sub{
+        margin-top: -7%;
+    }
+    
+    #p1{
+        margin-top: -1%;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 750px){
+    #NomeDaNoticia{
+        margin-top: -18%;
+    }
+    #sub{
+        margin-top: -7%;
+    }
+    
+    #p1{
+        margin-top: -1%;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 760px){
+    #NoticiaTelao img{
+        height: 350px !important;
+        width: 100%;
+        padding: 0 5%;
+    }
+    #NomeDaNoticia{
+        margin-top: 10%;
+    }
+    #sub{
+        margin-top: 14%;
+    }
+    
+    #p1{
+        margin-top: 16%;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 968px){
+    #NoticiaTelao img{
+        height: 450px !important;
+        width: 100%;
+        padding: 0 5%;
+    }
+    #NomeDaNoticia{
+        margin-top: 2%;
+    }
+    #sub{
+        margin-top: 4%;
+        padding: 0 10%;
+    }
+    
+    #p1{
+        margin-top: 6%;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 1700px){
+    #NoticiaTelao img{
+        height: 350px !important;
+        width: 100%;
+        padding: 0 5%;
+    }
+    #NomeDaNoticia{
+        margin-top: -0%;
+    }
+    #sub{
+        margin-top: 5%;
+    }
+    
+    #p1{
+        margin-top: 8%;
+        text-align: justify;
+    }
+}
+

@@ -1,0 +1,525 @@
+#Tela{
+    display: none;
+}
+
+#Procurar{
+    position: fixed;
+    width: 30%;
+    height: 30px;
+    left: 10px;
+    bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#Disparo{
+    position: fixed;
+    left: 35%;
+    bottom: 10px;
+    width: 20%;
+    height: 30px;
+    border-radius: 20px;
+}
+
+/* TA ATUALIZADO */
+@media only screen and (min-width: 300px){
+
+#T21{
+    font-size: 0.8em;
+}
+
+#T22{
+    font-size: 0.8em;
+}
+
+#T23{
+    font-size: 0.8em;
+}
+
+#T24{
+    font-size: 0.8em;
+}
+
+#T25{
+    font-size: 0.8em;
+}
+
+#T26{
+    font-size: 0.8em;
+}
+
+.Central{
+    margin-top: 40%;
+}
+
+}
+
+@media only screen and (min-width: 465px){
+    .B05{
+        height: 28px;
+        width: 150px;
+    }
+
+    .B06{
+        height: 28px;
+        width: 150px;
+    }
+
+    .B07{
+        height: 28px;
+        width: 150px;
+    }
+
+    .B08{
+        height: 28px;
+        width: 150px;
+    }
+
+    .B09{
+        height: 28px;
+        width: 150px;
+    }
+    
+    .B010{
+        height: 28px;
+        width: 150px;
+    }
+
+    .Central{
+        margin-top: 40%;
+    }
+}
+
+@media only screen and (min-width: 600px){
+
+    #T21{
+        font-size: 1em;
+    }
+    
+    #T22{
+        font-size: 1em;
+    }
+    
+    #T23{
+        font-size: 1em;
+    }
+    
+    #T24{
+        font-size: 1em;
+    }
+    
+    #T25{
+        font-size: 1em;
+    }
+    
+    #T26{
+        font-size: 1em;
+    }
+    }
+
+@media only screen and (min-width: 800px){
+    .Bo{
+        display: block;
+        position: absolute;
+        top: 27%;
+        left: 4%;
+        width: 25%;
+        height: 50px;
+    }
+    
+    .Boo{
+        display: block;
+        position: absolute;
+        top: 27%;
+        left: 37%;
+        width: 25%;
+        height: 50px;
+    }
+    
+    .Booo{
+        display: block;
+        position: absolute;
+        top: 27%;
+        left: 71%;
+        width: 25%;
+        height: 50px;
+    }
+    
+    .B{
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 64%;
+        width: 25%;
+        height: 50px;
+    }
+    
+    #B5{
+        position: absolute;
+        left: 61%;
+        top: 45%;
+    }
+    
+    .B05{
+        height: 28px;
+        width: 150px;
+    }
+    
+    #B6{
+        position: absolute;
+        left: 61%;
+        top: 55%;
+    }
+    
+    .B06{
+        height: 28px;
+        width: 150px;
+    }
+    
+    #B7{
+        position: absolute;
+        left: 61%;
+        top: 63%;
+    }
+    
+    .B07{
+        height: 28px;
+        width: 150px;
+    }
+    
+    #B8{
+        position: absolute;
+        left: 61%;
+        top: 72%;
+    }
+    
+    .B08{
+        height: 28px;
+        width: 150px;
+    }
+    
+    #B9{
+        position: absolute;
+        left: 61%;
+        top: 81%;
+    }
+    
+    .B09{
+        height: 28px;
+        width: 150px;
+    }
+    
+    #B10{
+        position: absolute;
+        left: 61%;
+        top: 90%;
+    }
+    
+    .B010{
+        height: 28px;
+        width: 150px;
+    }
+    
+    #titulo1{
+        font-size: 1.4em;
+    }
+    
+    #texto1{
+        margin: 3% 0 0;
+    }
+    
+    #I1{
+        padding: 3.3% 2% 2%;
+    }
+    
+    #titulo2{
+        font-size: 0.7em;
+        max-width: 28ch;
+        margin: 2% -4% 0;
+    }
+    
+    #titulo3{
+        font-size: 0.7em;
+        max-width: 28ch;
+        margin: 2% -4% 0;
+    }
+    
+    #titulo4{
+        font-size: 0.7em;
+        max-width: 28ch;
+        margin: 2% -4% 0;
+    }
+    
+    #T21{
+        font-size: 1.3em;
+    }
+    
+    #T22{
+        font-size: 1.3em;
+    }
+    
+    #T23{
+        font-size: 1.3em;
+    }
+    
+    #T24{
+        font-size: 1.3em;
+    }
+    
+    #T25{
+        font-size: 1.3em;
+    }
+    
+    #T26{
+        font-size: 1.3em;
+    }
+
+    .Ultimas{
+        margin-bottom: -4%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .B{
+        display: block;
+        position: absolute;
+        top: 12%;
+        left: 64%;
+        width: 25%;
+        height: 50px;
+    }
+    
+    #B5{
+        position: absolute;
+        left: 61%;
+        top: 43%;
+    }
+
+    #B6{
+        position: absolute;
+        left: 61%;
+        top: 52%;
+    }
+
+    #B7{
+        position: absolute;
+        left: 61%;
+        top: 61%;
+    }
+
+    #B8{
+        position: absolute;
+        left: 61%;
+        top: 70%;
+    }
+
+    #B9{
+        position: absolute;
+        left: 61%;
+        top: 79%;
+    }
+    
+    .B09{
+        height: 28px;
+        width: 150px;
+    }
+    
+    #B10{
+        position: absolute;
+        left: 61%;
+        top: 88%;
+    }
+
+    .Central{
+        margin-top: 20%;
+    }
+
+    .Central p{
+        margin-top: 3%;
+    }
+
+    .Ultimas{
+        margin-bottom: -9%;
+    }
+}
+
+@media only screen and (min-width: 1100px){
+
+
+    .Central p{
+        margin-top: -3%;
+    }
+    .Ultimas{
+        margin-bottom: 6%;
+    }
+
+    #titulo1{
+        font-size: 1.4em;
+    }
+    
+    #texto1{
+        margin: 3% 0 0;
+    }
+    
+    #I1{
+        padding: 3.3% 2% 2%;
+    }
+    
+    #titulo2{
+        font-size: 0.7em;
+        max-width: 28ch;
+        margin: 2% -4% 0;
+    }
+    
+    #titulo3{
+        font-size: 0.7em;
+        max-width: 28ch;
+        margin: 2% -4% 0;
+    }
+    
+    #titulo4{
+        font-size: 0.7em;
+        max-width: 28ch;
+        margin: 2% -4% 0;
+    }
+    
+    #titulo1{
+        font-size: 1.4em;
+    }
+    
+    #texto1{
+        margin: 3% 0 0;
+    }
+    
+    #I1{
+        padding: 3.3% 2% 2%;
+    }
+    
+    #titulo2{
+        font-size: 0.7em;
+        max-width: 40ch;
+        margin: 2% -4% 0;
+    }
+    
+    #titulo3{
+        font-size: 0.7em;
+        max-width: 40ch;
+        margin: 2% -4% 0;
+    }
+    
+    #titulo4{
+        font-size: 0.7em;
+        max-width: 40ch;
+        margin: 2% -4% 0;
+    }
+    
+    #T21{
+        font-size: 1.3em;
+    }
+    
+    #T22{
+        font-size: 1.3em;
+    }
+    
+    #T23{
+        font-size: 1.3em;
+    }
+    
+    #T24{
+        font-size: 1.3em;
+    }
+    
+    #T25{
+        font-size: 1.3em;
+    }
+    
+    #T26{
+        font-size: 1.3em;
+    }
+
+#B5{
+    position: absolute;
+    left: 61%;
+    top: 50%;
+}
+
+#B6{
+    position: absolute;
+    left: 61%;
+    top: 57.5%;
+}
+
+#B7{
+    position: absolute;
+    left: 61%;
+    top: 65%;
+}
+
+#B8{
+    position: absolute;
+    left: 61%;
+    top: 73%;
+}
+
+#B9{
+    position: absolute;
+    left: 61%;
+    top: 81%;
+}
+
+#B10{
+    position: absolute;
+    left: 61%;
+    top: 89%;
+}
+
+.Central p{
+    margin-top: 0.5%;
+}
+
+
+@media only screen and (min-width: 1350px){
+
+#B5{
+    position: absolute;
+    left: 61%;
+    top: 50%;
+}
+
+#B6{
+    position: absolute;
+    left: 61%;
+    top: 58%;
+}
+
+#B7{
+    position: absolute;
+    left: 61%;
+    top: 65%;
+}
+
+#B8{
+    position: absolute;
+    left: 61%;
+    top: 73%;
+}
+
+#B9{
+    position: absolute;
+    left: 61%;
+    top: 80%;
+}
+
+#B10{
+    position: absolute;
+    left: 61%;
+    top: 88%;
+}
+
+.Central p{
+    margin-top: 0.5%;
+}
+
+}
+}
