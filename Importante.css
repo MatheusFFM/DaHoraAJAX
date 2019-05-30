@@ -12,6 +12,27 @@
     border-radius: 20px;
 }
 
+@media only screen and (max-width: 400px){
+    #B5display{
+        display: none;
+    }
+    #B6display{
+        display: none;
+    }
+   #B7display{
+    display: none;
+}
+   #B8display{
+    display: none;
+}
+    #B9display{
+        display: none;
+    }
+  #B10{
+      display: none;
+  }
+}
+
 #Disparo{
     position: fixed;
     left: 35%;
@@ -25,27 +46,27 @@
 @media only screen and (min-width: 300px){
 
 #T21{
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 #T22{
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 #T23{
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 #T24{
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 #T25{
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 #T26{
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 .Central{
